@@ -1,0 +1,275 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+\documentclass[letterpaper,11pt]{article}
+
+
+%%%
+%\usepackage[backref=true]{biblatex}
+%%\end{filecontents}
+%\bibliography{refs.bib}
+
+%\usepackage{color}
+%\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+%\usepackage[colorlinks=true,
+%            linkcolor=red,
+%            urlcolor=blue,
+%            citecolor=gray]{hyperref}
+%%%
+%\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fontspec}
+\setmainfont{Calibri}
+%\usepackage{hyperref}
+%\usepackage[colorlinks]{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%This line doesnt work on change color
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins%%%%%%%%%%%%%%%%
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1in}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1.0in}
+\usepackage[bottom=0.5in,top=0.8in]{geometry}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%\newcommand\thefontsize[1]{{#1 The current font size is: \f@size pt\par}}
+%-------------------------------------------
+
+%%%%
+%%%%
+
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\rhead{Clickable}
+%\makeheading{\href{https://www.linkedin.com/in/xi-cassie-guo-119463a6}{Xi Guo}}
+
+%----------HEADING-----------------
+%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+% \textbf{Xi Guo} & Email : \href{mailto:guoxx456@umn.edu}{xi.guo@mg.thedataincubator.com}\\
+%Mobile: +1-952-465-6453  & https://www.linkedin.com/in/xi-cassie-guo-119463a6 \\
+%Visa Status: Legal authorized to work in the US & https://github.com/lilsummer \\
+%\end{tabular*}
+
+\begin{center}
+{\huge{\textbf{XI GUO}}}\\
++1-952-465-6453 $\Diamond$ Email : \href{mailto:xi.guo@mg.thedataincubator.com}{xi.guo@mg.thedataincubator.com} \\
+Visa status: Legal authorized to work in the US
+\end{center}
+%--------PROGRAMMING SKILLS------------
+\section{Techinical Skills}
+  \resumeSubHeadingListStart
+    \item{\textbf{Languages and software}{: 3+ years of experience in R, Python, and Java (Oracle SE7 Certified)}; experienced in Matlab and ArcGIS}
+     %\item{\textbf{Software}{: Matlab, EpiInfo, ArcGIS, Galaxy}}
+     \item{\textbf{Analysis}{: Time series analysis, Machine learning, Data visualization, Bioinformatics}}
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+  
+%\resumeSubheading
+%{Coursera Data Science Track}{}
+%{10-course specialization by Johns Hopkins University}{Feb 2014 - Dec 2016}
+%\resumeItemListStart
+%\resumeItem{\href{https://lilsummer.shinyapps.io/NextWordPrediction/}{Next Word Prediction}}
+%  {\href{https://lilsummer.shinyapps.io/NextWordPrediction/}
+%   {Developed a web tool for predicting the next word in less than 5 seconds; built}
+%    \href{https://rpubs.com/lilsummer1989/238392}
+%    {a Katz back-off model using 4 million lines of text content}}
+%        \resumeItemListEnd
+
+    \resumeSubheading
+      {Avian Flu Research Team}{University of Minnesota}
+      {Project Lead - Correlation Analysis, Time Series Analysis, Survey Methods}{Feb 2013 - Present}
+      \resumeItemListStart
+%%%%%%there are three items listed here
+%    \resumeItem{\href{http://www.slideshare.net/XiCassieGuo/mobile-survey-appillustration?ref=https://www.linkedin.com/}
+%    {Mobile Survey App Design}}
+%      {A mobile app used in food industry to investigate disease transmission risks; used during 
+%      \href{http://news.extension.umn.edu/2015/05/extension-analysis-economic-impact-of.html}
+%      {2015 HPAI outbreak to reduce 310 million economic loss}}
+	\item{Designed and coordinated epidemiological surveys to investigate avian flu risks in 32 farms over 3 years}
+	\item{Launched a \href{http://www.slideshare.net/XiCassieGuo/mobile-survey-appillustration?ref=https://www.linkedin.com/} mobile survey app used to capture first-hand information in food industry to reduce 310 million economic loss}
+	%\item{Consulted with the software development team on the survey platform usability}	
+	\item{Performed correlation and singular spectrum analysis of 56 years of daily weather data}
+	\item{Developed a \href{https://lilsummer.shinyapps.io/weatherIndicators/}{Shiny App} for identifying association between avian flu outbreaks and local weather using R}
+        %{; performed correlation and singular spectrum analysis of 56 years of daily weather data}
+        
+%  \resumeItem{Nostos}
+%  {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+%    \resumeItem{Workflows}
+%      {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+%    \resumeItem{Data Collection}
+%      {Designed the internal survey and crowd sourcing platfowm which allowed for creating various tasks for crowd sourding or embedding surveys across the Coursera platform.}
+%    \resumeItem{Dev Environment}
+%      {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
+%    \resumeItem{Data Warehousing}
+%      {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
+%    \resumeItem{Recommendations}
+%      {Core service for all recommendation systems at Coursesa, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
+%    \resumeItem{Content Discovery}
+%      {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
+%    \resumeItem{Course Dashboards}
+%      {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+      \resumeItemListEnd
+
+\resumeSubheading
+ {Porcine Genome Research Team}{University of Minnesota}
+ {Research Assistant - Bioinformatics, Hypothesis Testing}{Aug 2012 - Feb 2013}
+ \resumeItemListStart
+\item{Analyzed \href{http://www.illumina.com/systems/miseq.html} 5 GB
+	{Illumina MiSeq} data using R and python; characterized 23 genes from 108 genome samples}
+% \resumeItem{QuantDesk}
+%  %{Python backend for a web application used by hedge fund managers for portfolio management.}
+ \resumeItemListEnd
+
+%    \resumeSubheading
+%      {Climatic Data Mining to Solve Avian Flu Mystery}{St Paul, MN}
+%      {Research Assistant - Time Series Analysis}{Mar 2015 - present}
+%      \resumeItemListStart
+%        \resumeItem{\href{https://lilsummer.shinyapps.io/weatherIndicators/}
+%        {Predicting Avian Flu Using Weather Patterns}}
+%          {A Shiny App for predicting avian flu outbreak using weekly weather parameters}
+%       % \resumeItem{Teaching Assistant - Computational Investing}
+%       %   {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+%      \resumeItemListEnd
+ \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+%\section{Projects}
+%\resumeSubHeadingListStart
+%\resumeSubItem{\href{https://github.com/lilsummer/modeling_punishment_py}
+%{Refined Model in Python: the Thriving of Punishers}}
+%  {A multi-agent based model to illustrate the evolution of volunteering punishment.}
+%\resumeSubItem{\href{https://rpubs.com/lilsummer1989/245804}
+%{Duck Unlimited Data Visualization}}
+%  {Data visualization of Duck Unlimited reports and HPAI outbreak events using plotly to analyze report locations over time.}
+%% \resumeSubItem{Recommendation System}
+% % {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%%\resumeSubItem{Mac Setup}
+% % {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%\resumeSubHeadingListEnd
+%
+  
+  
+%  \item {\bf Guo, X.}, Flores, C., Munoz-Aguayo, J., Halvorson, D.A., Lauer, D. and Cardona, C.J., 2015. 
+%    \href{https://www.ncbi.nlm.nih.gov/pubmed/26629625}
+%    {Historical and Recent Cases of H3 Influenza A Virus in Turkeys in Minnesota.} \emph{Avian diseases}, 59(4), pp.512-517.
+%     \item {\bf Guo, X.}, Schwartz, J.C. and Murtaugh, M.P., 2016. 
+%    \href{http://link.springer.com/article/10.1007/s00251-016-0899-9}
+%    {Genomic variation in the porcine immunoglobulin lambda variable region.} \emph{Immunogenetics}, pp.1-9.
+
+  %-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {University of Minnesota}{Minneapolis, MN}
+      {Ph.D. in Epidemiology and Molecular Biology; expected July 2017}
+      {Aug. 2012 -- present}
+       \resumeItemListStart
+ 	\item {Relevant coursework: Algorithms and data structure; Practice of database systems;
+Biostatistics; Intelligent agents}
+	\resumeItemListEnd
+    \resumeSubheading
+      {China Agricultural University}{Beijing, China}
+      {Bachelor of Science in Veterinary Medicine}{Aug. 2007 -- May. 2012}
+  \resumeSubHeadingListEnd
+
+
+
+  
+%  %---------PRESENTATIONS-----
+%  \section{Invited talk}
+%  \resumeSubHeadingListStart
+%  %\resumeSubItem{\href{https://rpubs.com/lilsummer1989/227574}
+%  %{Handling Time-series Data}}{Oral presentation at: Twin Cities R User Group (TCRUG) Meeting. 2016.}
+%  \resumeSubItem{Tools for organizing a public presentation}{Public Speaking Workshop, University of Minnesota, 2015}
+%  \resumeSubHeadingListEnd
+  
+  
+  %-----------PUBLICATION-----------------
+\section{Selected Awards and Publications}
+  \resumeSubHeadingListStart
+	  \resumeSubItem{MNDrive Global Food Venture Fellowship, 2014}{nominees were the top 18\%  among innovative researchers focused on food safety at the University of Minnesota}
+	\resumeSubItem{Summer Institute in Statistics and Modeling Travel Award, 2014}{awarded by Department of Biostatistics, University of Washington}
+  	\item{\href{http://link.springer.com/article/10.1007/s00251-016-0899-9}
+    {Genomic variation in the porcine immunoglobulin lambda variable region. }}{\textbf{Guo, X.}, Schwartz, J.C. and Murtaugh, M.P., 2016. Immunogenetics.}
+    % \resumeSubItem{\href{https://www.ncbi.nlm.nih.gov/pubmed/26629625}
+    % {Historical and Recent Cases of H3 Influenza A Virus in Turkeys in Minnesota}}{Guo, X., Flores, C., Munoz-Aguayo, J., Halvorson, D.A., Lauer, D. and Cardona, C.J., 2015. Avian diseases, 59(4), pp.512-517.}
+    	\resumeSubHeadingListEnd
+
+%-----LEADERSHIP
+\section{Leadership Experience}
+\resumeSubHeadingListStart
+	\resumeSubItem{President, The Minneapolis Toastmaster Club, 2016}{organized inter-club events}
+	\resumeSubItem{Lead of National College Innovation Program, 2009}{lead of a four students in a science innovation project; secured 20,000 RMB funding; won First Prize of The 5th Challenge Cup Competition}
+\resumeSubHeadingListEnd
+%
+
+
+%-----INTERESTS-------
+%\section{Professional Affiliation}
+% \resumeSubHeadingListStart
+% \item{President, The Minneapolis Toastmaster Club, 2016}
+%\resumeSubHeadingListEnd
+%-------------------------------------------
+\section{Other Interests}
+ \resumeSubHeadingListStart
+ %\resumeSubItem{Public speaking}{President of The Minneapolis Toastmaster Club in 2016 (being an active member during 2014-2017}
+ \resumeSubItem{Dancing}{performer of The Olympic Games Closing Ceremony, 2008; Hip Hop dance instructor for high school kids}
+\resumeSubHeadingListEnd
+
+\end{document}
